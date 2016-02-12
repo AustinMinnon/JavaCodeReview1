@@ -27,4 +27,9 @@ public class WordPuzzleTest {
     WordPuzzle testInputToPuzzle = new WordPuzzle();
     assertEquals("R-gg--",testInputToPuzzle.inputToPuzzle("Reggie"));
   }
+  @Test
+  public void inputToPuzzle_phraseinputo_OToDash() {
+    WordPuzzle testInputToPuzzle = new WordPuzzle();
+    assertEquals("Wh-ck - M-l-!",testInputToPuzzle.inputToPuzzle("Whack a Mole!"));
+  }
 }
