@@ -1,6 +1,6 @@
 # _Word Puzzle_
 
-#### _Enter a word and recieve a word puzzle, 2.11.16_
+#### _Enter a word and recieve a word puzzle, 2.12.16_
 
 #### By _**Austin Minnon**_
 
