@@ -17,4 +17,9 @@ public class WordPuzzleTest {
     WordPuzzle testInputToPuzzle = new WordPuzzle();
     assertEquals("wr-p",testInputToPuzzle.inputToPuzzle("wrap"));
   }
+  @Test
+  public void inputToPuzzle_phraseinputE_eToDash() {
+    WordPuzzle testInputToPuzzle = new WordPuzzle();
+    assertEquals("sp--d d-m-nd",testInputToPuzzle.inputToPuzzle("speed demand"));
+  }
 }
