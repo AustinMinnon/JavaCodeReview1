@@ -1,0 +1,12 @@
+public static String replacePhrase(String phrase) {
+  String phraseReplaced = phrase.replaceAll("[o]",'-');
+  return phrase;
+}
+
+public class WordPuzzleTest {
+  @Test
+  public void replacePhrase_word_wDASHrd() {
+    WordPuzzle isWordPuzzle = new WordPuzzle();
+    assertEquals("w-rd", replacePhrase.isWordPuzzle("word"));
+  }
+}
