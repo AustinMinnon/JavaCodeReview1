@@ -27,4 +27,8 @@ public class WordPuzzle {
     //   return new ModelAndView(model, layout);
     // }, new VelocityTemplateEngine());
   }
+  public static String inputToPuzzle(String phrase) {
+    String phraseReplaced = phrase.replaceAll("[aA]","-");
+    return phraseReplaced;
+  }
 }
