@@ -32,4 +32,9 @@ public class WordPuzzleTest {
     WordPuzzle testInputToPuzzle = new WordPuzzle();
     assertEquals("Wh-ck - M-l-!",testInputToPuzzle.inputToPuzzle("Whack a Mole!"));
   }
+  @Test
+  public void inputToPuzzle_phraseinputu_UToDash() {
+    WordPuzzle testInputToPuzzle = new WordPuzzle();
+    assertEquals("-nd-rgr--nd R--gh R-gg-d -nd R-w",testInputToPuzzle.inputToPuzzle("Underground Rough Rugged and Raw"));
+  }
 }
