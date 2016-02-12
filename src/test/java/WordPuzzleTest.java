@@ -37,4 +37,9 @@ public class WordPuzzleTest {
     WordPuzzle testInputToPuzzle = new WordPuzzle();
     assertEquals("-nd-rgr--nd R--gh R-gg-d -nd R-w",testInputToPuzzle.inputToPuzzle("Underground Rough Rugged and Raw"));
   }
+  @Test
+  public void inputToPuzzle_defaultexample_ReplaceAllVowels() {
+    WordPuzzle testInputToPuzzle = new WordPuzzle();
+    assertEquals("B-l--v- y-- c-n -nd y--r- h-lfw-y th-r- - Th--d-r- R--s-v-lt",testInputToPuzzle.inputToPuzzle("Believe you can and youre halfway there - Theodore Roosevelt"));
+  }
 }
