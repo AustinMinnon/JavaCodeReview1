@@ -17,25 +17,20 @@
 //   @Test
 //   public void rootTest() {
 //       goTo("http://localhost:4567/");
-//       assertThat(pageSource()).contains("Cash Register, FOR CHANGE ONLY");
+//       assertThat(pageSource()).contains("puzzle on a new page");
 //   }
 //   @Test
-//   public void makeChange() {
+//   public void puzzleword() {
 //   goTo("http://localhost:4567");
-//   fill("#changeDue").with("95");
+//   fill("#userPhrase").with("word");
 //   submit(".btn");
-//   assertThat(pageSource()).contains("Quarters: 3 Dimes: 2 Nickels: 0 Pennies: 0");
+//   assertThat(pageSource()).contains("Puzzle Phrase");
 //   }
 //   @Test
 //   public void makeMoreChange() {
-//     goTo("http://localhost:4567");
-//     fill("#changeDue").with("11");
+//     goTo("http://localhost:4567/detector");
+//     fill("#userPhrase").with("gee wiz");
 //     submit(".btn");
-//     assertThat(pageSource()).contains("Quarters: 0 Dimes: 1 Nickels: 0 Pennies: 1");
-//   }
-//   @Test
-//   public void replacePhrase_word_wDASHrd() {
-//     WordPuzzle isWordPuzzle = new WordPuzzle();
-//     assertEquals("w-rd", replacePhrase.isWordPuzzle("word"));
+//     assertThat(pageSource()).contains("g-- w-z");
 //   }
 // }
