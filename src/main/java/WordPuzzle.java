@@ -28,7 +28,7 @@ public class WordPuzzle {
     // }, new VelocityTemplateEngine());
   }
   public static String inputToPuzzle(String phrase) {
-    String phraseReplaced = phrase.replaceAll("[aAeE]","-");
+    String phraseReplaced = phrase.replaceAll("[aAeEiI]","-");
     return phraseReplaced;
   }
 }

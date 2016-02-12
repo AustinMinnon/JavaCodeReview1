@@ -22,4 +22,9 @@ public class WordPuzzleTest {
     WordPuzzle testInputToPuzzle = new WordPuzzle();
     assertEquals("sp--d d-m-nd",testInputToPuzzle.inputToPuzzle("speed demand"));
   }
+  @Test
+  public void inputToPuzzle_phraseinputI_iToDash() {
+    WordPuzzle testInputToPuzzle = new WordPuzzle();
+    assertEquals("R-gg--",testInputToPuzzle.inputToPuzzle("Reggie"));
+  }
 }
